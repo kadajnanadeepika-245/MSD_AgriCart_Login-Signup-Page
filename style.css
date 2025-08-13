@@ -1,0 +1,155 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+h1, h2, p { margin: 0; }
+.header {
+  background: linear-gradient(rgba(0,80,0,0.8), rgba(0,50,0,0.8)),
+              url('assets/farm-header.jpg') center/cover;
+  color: white;
+  padding: 1rem 2rem;
+}
+.header.small {
+  background: linear-gradient(rgba(0,80,0,0.85), rgba(0,50,0,0.85)),
+              url('assets/farm-header.jpg') center/cover;
+}
+.header-wrap {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-wrap {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+.tag {
+  font-style: italic;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.green { background: linear-gradient(45deg, #28a745, #4caf50); color: white; }
+.yellow { background: linear-gradient(45deg, #ffb347, #ffcc33); color: #333; }
+.outline { border: 2px solid white; background: transparent; color: white; }
+.btn:hover { transform: translateY(-2px); box-shadow: 0 6px 12px rgba(0,0,0,0.2); }
+.outline:hover { background: white; color: #218838; }
+.home .hero {
+  height: calc(100vh - 200px);
+  background: url('image.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay {
+  background: rgba(0,0,0,0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  text-align: center;
+  color: white;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0,50,0,0.85);
+  color: white;
+}
+.auth {
+  background: linear-gradient(rgba(0,80,0,0.8), rgba(0,50,0,0.8)),
+              url('image1.png') center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.form-box {
+  max-width: 420px;
+  width: 100%;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(15px);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+
+  color: white;
+  margin: auto; 
+  transition: all 0.3s ease;
+}
+.green-text { color: #ffe600; }
+.form-box h2 {
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.form-box input,
+.form-box select {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.6rem 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  transition: all 0.3s ease;
+}
+.form-box input::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+.form-box select option {
+  color: black;
+}
+.form-box input:focus,
+.form-box select:focus {
+  background: rgba(255,255,255,0.25);
+  box-shadow: 0 0 8px rgba(255,255,255,0.4);
+}
+
+.form-box button {
+  width: 100%;
+  padding: 0.9rem;
+  background: linear-gradient(45deg, #ffb347, #ffcc33);
+  color: #333;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.form-box button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.form-box p {
+  color: white;
+  margin-top: 1rem;
+}
+.form-box a {
+  color: #ffe600;
+  text-decoration: none;
+  font-weight: bold;
+}
+.form-box a:hover {
+  text-decoration: underline;
+}

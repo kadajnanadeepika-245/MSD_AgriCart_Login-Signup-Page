@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up | AgriKart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth">
+  <header class="header small fade">
+    <div class="header-wrap">
+      <div class="logo-wrap">
+        <img src="image1.png" alt="AgriKart Logo" class="logo">
+        <div>
+          <h1>AgriKart</h1>
+          <p class="tag">From Harvest to Handshake</p>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html" class="btn outline">🏠 Home</a>
+      </nav>
+    </div>
+  </header>
+  <div class="form-box glass up">
+    <h2>Create Your <span class="green-text">AgriKart</span> Account</h2>
+    <form action="/signup" method="POST">
+      <select required>
+        <option value="" disabled selected>Select Role</option>
+        <option>👨‍🌾 Farmer</option>
+        <option>🛒 Buyer</option>
+        <option>👷 Employee</option>
+      </select>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Sign Up</button>
+      <p>Already have an account? <a href="login.html">Login</a></p>
+    </form>
+  </div>
+
+</body>
+</html>
