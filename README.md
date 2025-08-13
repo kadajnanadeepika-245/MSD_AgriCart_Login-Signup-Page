@@ -36,4 +36,3 @@ The MSD_AgriCart Login & Signup page offers a clean, modern, and user-friendly i
 
 ---
 
-## 📁 Project Structure
