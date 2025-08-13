@@ -1,6 +1,6 @@
-# 🌾 MSD_AgriCart – Login & Signup Page
+# 🌾 MSD_AgriKart – Login & Signup Page
 
-A clean, modern, and responsive authentication page designed for **MSD_AgriCart**, offering farmers, buyers, and sellers a secure and seamless way to access their accounts. Built with **HTML** and **CSS**, it features stylish backgrounds, glassmorphic forms, and a mobile-friendly layout for quick registration and login.
+A clean, modern, and responsive authentication page designed for **MSD_AgriKart**, offering farmers, buyers, and sellers a secure and seamless way to access their accounts. Built with **HTML** and **CSS**, it features stylish backgrounds, glassmorphic forms, and a mobile-friendly layout for quick registration and login.
 
 ---
 
@@ -32,7 +32,7 @@ A clean, modern, and responsive authentication page designed for **MSD_AgriCart*
 ---
 
 ## 📜 Description
-The MSD_AgriCart Login & Signup page offers a clean, modern, and user-friendly interface for farmers, buyers, and sellers to securely access their accounts. Featuring a stylish background, glass-effect forms, and responsive design, it ensures quick, safe registration and seamless login on any device.
+The MSD_AgriKart Login & Signup page offers a clean, modern, and user-friendly interface for farmers, buyers, and sellers to securely access their accounts. Featuring a stylish background, glass-effect forms, and responsive design, it ensures quick, safe registration and seamless login on any device.
 
 ---
 
