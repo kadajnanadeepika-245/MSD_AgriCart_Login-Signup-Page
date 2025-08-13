@@ -5,7 +5,8 @@ A clean, modern, and responsive authentication page designed for **MSD_AgriCart*
 ---
 
 ## 🖼 Preview
-![Login & Signup Preview](assets/login-preview.png)
+![Login & Signup Preview](https://github.com/kadajnanadeepika-245/MSD_AgriCart_Login-Signup-Page/blob/main/Screenshot%202025-08-13%20233919.png)
+
 
 ## 🚀 Live Demo
 👉 **[View Live Preview](https://agricartlogindeepika.netlify.app/)**
